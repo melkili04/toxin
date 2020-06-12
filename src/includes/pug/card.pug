@@ -1,1 +1,191 @@
+div.card
+    div.left
+        div.card__inner
+            h1 Найдём номера под ваши пожелания
+            div.card__inner__date
+                div.arrival
+                    h3 прибытие
+                    input(type="date")
+                div.departure
+                    h3 выезд
+                    input(type="date")
+            h3#left__card__inner__h3 гости
+            input(type="number" placeholder='Сколько гостей')
+            button.btn__card(type='submit') подобрать номер
+                img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
 
+        div.card__inner
+            h1 Регистрация аккаунта
+            input#name(type="text" placeholder='Имя')
+            input(type="text" placeholder='Фамилия')
+            div.radio
+                input#men(name="gender" type="radio" value="Men")
+                label(for="men") Мужчина
+                input#women(name="gender" type="radio" value="Women")
+                label(for="women") Женщина
+            h3 Дата рождения
+            input(type="date")
+            h3#left__card__inner__h3 Данные для входа в сервис
+            input#name2(type="text" placeholder='Email')
+            input(type="text" placeholder='Пароль')
+            div.spec
+                label.switch
+                    input(type="checkbox")
+                    span.slider
+                p Получать спецпредложения
+            button.btn__card#reg__acc_btn(type='submit') подобрать номер
+                img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
+            div.account__reg
+                p Уже есть аккаунт на Toxin
+                button.btn__acount__reg(type='submit') Войти
+
+    div.middle
+        div.card__inner
+            div.title__price
+                h1 № 
+                    span#eight 888 
+                    span люкс
+                p 9 990₽ 
+                    span в сутки
+            div.card__inner__date2
+                div.arrival
+                    h3 прибытие
+                    input(type="date")
+                div.departure
+                    h3 выезд
+                    input(type="date")
+            h3#left__card__inner__h3 гости
+            input(type="number" placeholder='Сколько гостей')
+            div.price 
+                p 9 990₽ х 4 суток
+                p 39 960₽
+            div.price.info 
+                p Сбор за услуги: скидка 2 179₽
+                div.price__info__i#i i
+                p 0₽
+            div.price.info 
+                p#minor__price Сбор за дополнительные услуги
+                div.price__info__i i
+                p 300₽
+            div.result
+                h2#border Итого
+                h2 38 081₽
+            button.btn__card#reserve(type='submit') забронировать
+                img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
+
+        div.card__inner
+            h1 Войти
+            input#name(type="text" placeholder='Email')
+            input(type="text" placeholder='Пароль')
+            button.btn__card(type='submit') войти
+                img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
+            div.account__reg
+                p Нет аккаунта на Toxin?
+                button.btn__acount__reg(type='submit') Создать
+
+    div.right
+        div.card__inner#calendar 
+            .month 
+                ul
+                    li.prev
+                        img(src="/img/arrow/arrow_back.png", alt="alt")
+                    li.next
+                        img(src="/img/arrow/arrow_forward.png", alt="alt")
+                    li
+                        span Август 2019
+            ul.weekdays
+                li Пн
+                li Вт
+                li Ср
+                li Чт
+                li Пт
+                li Сб
+                li Вс
+            ul.days
+                li 29
+                li 30
+                li 31
+                li 1
+                li 2
+                li 3
+                li 4
+                li 5
+                li 6
+                li 7
+                li#active__gn 8
+                li 9
+                li 10
+                li 11
+                li 12
+                li 13
+                li 14
+                li 15
+                li 16
+                li 17
+                li 18
+                li#active__s1 19
+                li.active__gy 20
+                li.active__gy 21
+                li.active__gy 22
+                li#active__s2 23
+                li 24
+                li 25
+                li 26
+                li 27
+                li 28
+                li 29
+                li 30
+                li 31
+                li 1
+            .calendar__inner
+                a(href="#")#clear__btn очистить
+                a(href="#")#done__btn применить
+
+        div.card__photo
+            div#card__photo
+                img#card(src="./img/photo/image1.png" alt="alt")
+                img#left(src="./img/arrow/expand_more.png" alt="alt")
+                img#right(src="./img/arrow/expand_more.png" alt="alt")
+                div.card__dlc    
+                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+            div.photo__price
+                h1 № 
+                    span#eight 888 
+                    span люкс
+                p 9 990₽ 
+                    span в сутки
+            div.rating
+                div.rating__stars
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                p 145 
+                    span Отзывов
+
+        div.card__photo
+            div#card__photo
+                img#card(src="./img/photo/image2.png" alt="alt")
+                div.card__dlc#card__dlc2    
+                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+            div.photo__price
+                h1 № 
+                    span#eight 840
+                p 9 990₽ 
+                    span в сутки
+            div.rating#rating2
+                div.rating__stars
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star_border.png" alt="alt")
+                p 65 
+                    span Отзывов

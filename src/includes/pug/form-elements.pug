@@ -1,0 +1,277 @@
+.form
+    div
+        .form__input__title
+            h3 text field
+            h3#form__input__suptitle default
+        input.form__input__text(type="text" placeholder="Email")
+        .form__input__title#title1
+            h3 text field
+            h3#form__input__suptitle hover/focus
+        input(type="text" placeholder="This is pretty awesome")
+        .form__input__title#title2
+            h3 dropdown
+            h3#form__input__suptitle default
+        input(type="number" placeholder='Сколько гостей')
+        .form__input__title#title2
+            h3 masked text field
+            h3#form__input__suptitle default
+        input(type="date")
+        .date__dropdown__inner
+            div
+                h3 date dropdown
+                input(type="date")
+            div
+                h3 date dropdown
+                input(type="date")
+        h3#filter__date__dropdown filter date dropdown
+        input#filter__date__dropdown__input(type="date")
+        div#input__sub
+            h3 subscription text field
+            input#input__sub__input(type="text" placeholder="Email")
+            img#input__sub__img(src="./img/arrow/arrow_forward.png" alt="alt")
+        .dropdown
+            .form__input__title
+                h3 dropdown
+                h3#form__input__suptitle default
+            input#dropdown1(type="text" placeholder="2 спальни, 2 кровати...")
+            .form__input__title#form__input__title
+                h3 dropdown
+                h3#form__input__suptitle expanded
+            .dropdown__expanded#dropdown1
+                p 2 спальни, 2 кровати...
+                .rectangle
+                    .rectangle__text
+                        h3 спальни
+                        h3.min -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3.rectangle__num 2
+                        h3.pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__text#rectangle__text1
+                        h3 кровати
+                        h3.min -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3.rectangle__num 2
+                        h3.pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__text#rectangle__text2
+                        h3 ванные комнаты
+                        h3#min -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3#rectangle__num 0
+                        h3#pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+            .checkbox__list
+                h3 expandable checkbox list 
+            .checkbox__list
+                h3 expandable checkbox list
+                div
+                    input(type="checkbox" name="")
+                    | Завтрак
+                    br
+                    input(type="checkbox" name="")
+                    | Письменный стол
+                    br
+                    input(type="checkbox" name="")
+                    | Стул для кормления
+                    br
+                    input(type="checkbox" name="")
+                    | Кроватка
+                    br
+                    input(type="checkbox" name="")
+                    | Телевизор
+                    br
+                    input(type="checkbox" name="")
+                    | Шампунь
+
+        .icon__text__list
+            img(src="./img/insert_emoticon.png" alt="alt")
+            div 
+                p#title Комфорт
+                p Шумопоглощающие стены
+        .icon__text__list
+            img(src="./img/location_city.png" alt="alt")
+            div 
+                p#title Удобство 
+                p Окно в каждой из спален 
+
+    div
+        h3#div__h3__checkbox__title Checkbox Buttons
+        .div__checkbox
+            input(type="checkbox" name="")
+            | Можно курить
+            br
+            input#div__checkbox__input1(type="checkbox" name="")
+            | Можно с питомцами
+            br
+            input#div__checkbox__input2(type="checkbox" name="")
+            | Можно пригласить гостей 
+            br
+        span#sub__checkbox (до 10 человек)
+        .radio__buttons
+            h3 radio buttons
+            div.radio
+                input#men(name="gender" type="radio" value="Men")
+                label(for="men") Мужчина
+                input#women(name="gender" type="radio" value="Women")
+                label(for="women") Женщина
+        .toggle
+            h3 toggle
+            div.spec
+                label.switch
+                    input(type="checkbox")
+                    span.slider
+                p Получать спецпредложения
+            div.spec
+                label.switch
+                    input(type="checkbox")
+                    span.slider
+                p Получать спецпредложения
+        .like__button
+            h3 like button
+            div
+                img(src="./img/comment/like1.png" alt="alt")
+                img(src="./img/comment/like2.png" alt="alt")
+        .rate__button
+            h3 rate button
+            .rate__button__inner
+                div
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star_border.png" alt="alt")
+                div
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+                    img(src="./img/star/star.png" alt="alt")
+        .dropdown#dropdown
+            .form__input__title
+                h3 dropdown
+            .dropdown__expanded
+                p 2 спальни, 2 кровати...
+                .rectangle#r1
+                    .rectangle__text
+                        h3 взрослые
+                        h3.min#min1 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3.rectangle__num#rectangle__num1 0
+                        h3.pl#pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__text#rt1
+                        h3 дети
+                        h3.min#min2 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3.rectangle__num#rectangle__num1 0
+                        h3.pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__text#rt2
+                        h3 младенцы
+                        h3.min#min3 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3#rectangle__num 0
+                        h3#pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    a(href="#") Применить 
+        .rich__checkbox__buttons
+            h3 rich checkbox buttons
+            input(type="checkbox" name="")
+            span#checkbox__title Широкий коридор
+            br
+            span#sub__checkbox Ширина коридоров в номере 
+            br
+            span#sub__checkbox не менее 91 см.
+            br
+
+            input(type="checkbox" name="")
+            span#checkbox__title Помощник для инвалидов
+            br
+            span#sub__checkbox На 1 этаже вас встретит специалист
+            br
+            span#sub__checkbox и проводит до номера.
+
+        .comment
+            .comment__title
+                img(src="./img//comment/comment.png" alt="alt")
+                p Мурад Сарафанов 
+                    br
+                    span 5 дней назад
+            .comment__text
+                img(src="./img/comment/like2.png" alt="alt")
+                p Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий.
+                    br
+                    span И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто 
+                    br
+                    span не жаловался из соседей.                    
+
+    div
+        .range__slider 
+            h3 range slider
+            p 5 000₽ - 10 000₽ 
+        .range__bar
+            .range__bar__circle#left__range
+            .range__bar__circle#right__range
+        .buttons
+            h3 buttons
+            .buttons__inner
+                div
+                    button.btn__acount__reg#purple(type='submit') click me
+                    button.btn__acount__reg#purple(type='submit') click me
+                div
+                    button.btn__acount__reg(type='submit') click me
+                    button.btn__acount__reg#white(type='submit') click me
+                div
+                    a(href="#") click me
+                    a(href="#") click me
+                button.btn__card(type='submit') Перейти к оплате
+                    img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
+        .pagination
+            h3 pagination
+            .pagination__inner
+                p 1
+                p 2
+                p 3
+                p ...
+                p 15
+                .img__border
+                    img(src="./img/arrow/arrow_forward2.png" alt="alt")
+            p#suptitle 1 – 12 из 100+ вариантов аренды
+        .dropdown#dropdown__right
+            .form__input__title
+                h3 dropdown
+            .dropdown__expanded#dropdown2
+                p 2 спальни, 2 кровати...
+                .rectangle
+                    .rectangle__text
+                        h3 взрослые
+                        h3.min#min1 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3.rectangle__num#rectangle__num1 0
+                        h3.pl#pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__text#rt1
+                        h3 дети
+                        h3.min#min2 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3.rectangle__num#rectangle__num1 0
+                        h3.pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__text#rt2
+                        h3 младенцы
+                        h3.min#min3 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3#rectangle__num 0
+                        h3#pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__btn
+                        a(href="#") очистить
+                        a(href="#") Применить
+        .bullet__list
+            h3 bullet list
+            ul
+                li Нельзя с питомцами
+                li Без вечеринок и мероприятий
+                li Время прибытия — после 13:00, 
+                |  а выезд до 12:00
