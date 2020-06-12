@@ -1,0 +1,196 @@
+$dark100: #1f2041;
+$dark75: rgba(31, 32, 65, 0.75);
+$dark50:rgba(31, 32, 65, 0.5);
+$dark25:rgba(31, 32, 65, 0.25);
+$dark5: rgba(31, 32, 65, 0.05);
+$purple: #bc9cff;
+$green: #6fcf97;
+
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: $dark50;
+    line-height: 17px;
+    max-width: 1440px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: $dark100;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: $dark100;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: $dark100;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    font-family: "Monteserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $dark75;
+    margin: 0;
+}
+
+input {
+    padding-left: 15px;
+
+    font-family: "Monteserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: $dark25;
+}
+
+.fab {
+    text-decoration: none;
+    color: $purple;
+}
+
+/* Container */
+.container {
+    background-color: #fff;
+}
+
+.container-hr {
+    background-color: #fff;
+    border-top: 1px solid #EFEFF1;
+}
+@import "./header.scss";
+
+@import "./card.scss";
+
+@import "./form-elements.scss";
+
+@import "./footer-widgets&copyright-bar.scss";
+
+.search__room {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+}
+
+.search__room__nav {
+    width: 300px;
+    margin-top: -14px;
+}
+
+#filter__date__dropdown {
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 266px;
+    height: 44px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.form__input__title {
+    margin-top: 22px;
+}
+
+.range__slider {
+    margin-top: 28px;
+}
+
+#range__bar__text {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 14px;
+    color: $dark50;
+}
+
+#div__h3__checkbox__title {
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.rich__checkbox__buttons {
+    margin-top: 28px;
+    margin-left: 0;
+}
+
+#form__input__title1 {
+    margin-top: 10px;
+}
+
+.checkbox__list {
+    margin-top: 28px;
+}
+
+.search__room__card {
+    margin-top: -10px;
+    margin-right: 24px;
+}
+
+#search__room__card1 {
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.search__room__inner {
+    margin-top: 24px;
+}
+
+.search__room__card__inner  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__photo {
+    margin-left: 10px;
+}
+
+.card__photo:first-child {
+    margin-left: 0;
+}
+
+.pagination {
+    margin: 0 auto;
+}
+
+#dropdown {
+    margin-top: -10px;
+}
+
+#r1 {
+    width: 266px;
+}

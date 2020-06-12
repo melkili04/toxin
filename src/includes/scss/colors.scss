@@ -1,0 +1,96 @@
+/* Colors & Type*/
+.colors__type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 145px 191px 145px 150px;
+}
+
+.ds {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+}
+
+.colors__title h2 {
+    margin: 0;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+.colors__title h2:last-child {
+    font-weight: 400;
+}
+
+#p100 {
+    background-color: $dark100;
+}
+
+#p75 {
+    background-color: $dark75;
+}
+
+#p50 {
+    background-color: $dark50;
+}
+
+#p25 {
+    background-color: $dark25;
+}
+
+#p5 {
+    background-color: $dark5;
+}
+
+#sqr_purple {
+    background-color: $purple;
+}
+
+#green {
+    background-color: $green;
+}
+
+.type__inner {
+    display: flex;
+    padding-right: 1px;
+    margin-top: 30px;
+}
+
+.type__inner h1,
+.type__inner h2,
+.type__inner h3,
+.type__inner p {
+    margin-right: 30px;
+    text-align: right;
+}
+
+.type__inner h1:last-child,
+.type__inner h2:last-child,
+.type__inner h3:last-child,
+.type__inner p:last-child {
+    margin-right: 0;
+    text-align: left;
+}
+
+.type__inner h2 {
+    margin-left: 2px;
+}
+
+.type__inner h3 {
+    margin-left: 10px;
+}
+
+.type__inner h3:last-child {
+    margin-left: 3px;
+}
+
+#type__inner__title {
+    font-weight: 400;
+    color: $dark25;
+}

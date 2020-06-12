@@ -1,0 +1,84 @@
+/*Footer widgets*/
+.footer-widgets {
+    padding: 80px 140px;
+}
+
+.footer-copybar {
+    padding: 0px 140px;
+}
+
+.group2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#group2__navigation {
+    margin-top: 7px;
+}
+
+#group2__about {
+    margin-top: 7px;
+}
+
+#group2__support {
+    margin-top: 7px;
+}
+
+.widget__logo {
+    width: 260px;
+    line-height: 24px;
+    color: $dark75;
+}
+
+.widget__logo p {
+    width: 85%;
+    margin-top: -5px;
+}
+
+.group2 li {
+    margin: 22px 0;
+    list-style-type: none;
+
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+
+    color: $dark50;
+}
+
+.widget__subscribe {
+    position: relative;
+    margin-top: 20px;
+}
+
+.widget__subscribe p {
+    margin-top: 18px;
+    width: 215px;
+}
+
+.sub__btn {
+    width: 260px;
+    height: 44px;
+    background-color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+
+.arrow_forward {
+    position: absolute;
+    top: 115px;
+    right: 15px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    margin-top: 26px;
+}
+
+.icon a {
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 23px;
+}

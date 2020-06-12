@@ -1,0 +1,91 @@
+/* Header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    list-style-type: none;
+    margin-top: 28px;
+}
+
+.navbar li {
+    cursor: pointer;
+    transition: font-weight .1s linear, color .1s linear;
+    padding-right: 30px;
+}
+
+.navbar li:hover {
+    font-weight: 600;
+    color: $dark75;
+}
+
+#logo {
+    margin: 16px 0;
+}
+
+#toxin {
+    margin-left: 10px;
+    margin-bottom: 26px;
+}
+
+.btn__log {
+    width: 87px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 22px;
+    border-color: $purple;
+    cursor: pointer;
+    
+    font-family: 'Monteserrat';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: $purple;
+
+    margin-top: -8px;
+    margin-right: 20px;
+}
+
+.btn__reg {
+    width: 196px;
+    height: 34px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Monteserrat';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+
+    margin-top: -8px;
+    margin-left: 1px;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+
+    border-top: 1px solid $dark50;
+    border-right: 1px solid $dark50;
+    transform: rotate(135deg);
+
+    margin-left: -20px;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+
+#li__rectangle::before{
+    content: "";
+    padding-right: 30px;
+    border-left: 1px solid rgba(31, 32, 65, 0.1);
+}

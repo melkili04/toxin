@@ -1,0 +1,567 @@
+/* Form Element */
+.form {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0 141px;
+    padding-top: 145px;
+    padding-bottom: 130px;
+    position: relative;
+}
+
+.form__input__title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#form__input__suptitle {
+    font-weight: 400;
+    margin-top: -3px;
+    color: $dark50;
+}
+
+.form__input__text {
+    margin-top: 5px;
+}
+
+#title1 {
+    margin-top: 20px;
+}
+
+#title2 {
+    margin-top: 26px;
+}
+
+.form input {
+    width: 320px;
+    height: 44px;
+    border: 1px solid $dark75;
+    border-radius: 4px;
+}
+
+.form input[type="radio"] {
+    width: 14px;
+    height: 14px;
+    border: 1px solid $dark75;
+    border-radius: 4px;
+}
+
+.form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid $dark25;
+    border-radius: 4px;
+}
+
+.date__dropdown__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.date__dropdown__inner input {
+    width: 150px;
+    margin-top: 6px;
+}
+
+#filter__date__dropdown {
+    margin-top: 42px;
+}
+
+#filter__date__dropdown__input {
+    width: 266px;
+    margin-top: 4px;
+}
+
+#input__sub {
+    position: relative;
+}
+
+#input__sub h3 {
+    margin-top: 40px;
+}
+
+#input__sub__input {
+    margin-top: 6px;
+    width: 267px;
+}
+
+#input__sub__img {
+    position: absolute;
+    top: 34px;
+    right: 68px;
+}
+
+.dropdown {
+    width: 266px;
+    margin-top: 100px;
+}
+
+#dropdown1 {
+    margin-top: 6px;
+}
+
+#form__input__title {
+    margin-top: 20px;
+}
+
+.dropdown input {
+    width: 266px;
+}
+
+.dropdown__expanded {
+    border: 1px solid $dark50;
+    border-radius: 2px;
+    margin-top: 4px;
+}
+
+.dropdown__expanded p {
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+#dropdown1 {
+    width: 266px;
+}
+
+.rectangle {
+    margin-top: 10px;
+    padding-bottom: 16px;
+}
+
+.rectangle__text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#rectangle__text1 {
+    padding-top: 22px;
+}
+
+#rectangle__text2 {
+    padding-top: 22px;
+}
+
+.min {
+    position: relative;
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.min__img {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+}
+
+.rectangle__num {
+    margin-left: 0px;
+}
+
+.pl {
+    position: relative;
+    margin-right: 18px;
+    font-size: 18px;
+}
+
+#min {
+    position: relative;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+#rectangle__num {
+    margin-left: 2px;
+}
+
+#pl {
+    position: relative;
+    font-size: 18px;
+    margin-right: 18px;
+}
+
+.rectangle__text:first-child {
+    border-top: 1px solid $dark50;
+}
+
+.checkbox__list {
+    margin-top: 52px;
+}
+
+.checkbox__list div {
+    margin-top: 14px;
+}
+
+.icon__text__list {
+    display: flex;
+    justify-content: space-between;
+    width: 291px;
+    margin-top: 112px;
+    margin-left: 4px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(31, 32, 65, 0.1);
+}
+
+.icon__text__list:last-child {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.icon__text__list img {
+    width: 43px;
+    height: 43px;
+}
+
+.icon__text__list div {
+    margin-right: 64px;
+}
+
+.icon__text__list p {
+    margin: 0;
+}
+
+#div__h3__checkbox__title {
+    margin-left: 6px;
+}
+
+.div__checkbox {
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+#div__checkbox__input1 {
+    margin-top: 6px;
+}
+
+#div__checkbox__input2 {
+    margin-top: 8px;
+}
+
+#sub__checkbox {
+    padding-left: 20px;
+}
+
+.radio__buttons {
+    margin-top: 36px;
+    margin-left: 6px;
+}
+
+.radio {
+    margin-top: 9px;
+}
+
+#men {
+    margin-left: 0px;
+}
+
+#women {
+    margin-left: 20px;
+}
+
+.toggle {
+    margin-top: 36px;
+    margin-left: 8px;
+}
+
+.like__button {
+    margin-top: 36px;
+    margin-left: 6px;
+}
+
+.like__button div {
+    margin-top: 14px;
+}
+
+.like__button img:last-child {
+    padding-left: 10px;
+}
+
+.rate__button {
+    margin-top: 38px;
+    margin-left: 6px;
+}
+
+.rate__button__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    margin-top: 18px;
+}
+
+.rate__button__inner img {
+    margin-left: 2px;
+}
+
+#dropdown {
+    margin-top: 194px;
+    margin-left: 4px;
+}
+
+.dropdown__expanded {
+    width: 320px;
+}
+
+#min1 {
+    position: relative;
+    margin-left: 140px;
+    font-size: 18px;
+}
+
+#min2 {
+    position: relative;
+    margin-left: 180px;
+    font-size: 18px;
+}
+
+#min3 {
+    position: relative;
+    margin-left: 135px;
+    font-size: 18px;
+}
+
+.rectangle__btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rt1 {
+    margin-top: 10px;
+}
+
+#rt2 {
+    margin-top: 10px;
+}
+
+#r1 {
+    padding-bottom: 0px;
+}
+
+.rectangle  a{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 28px;
+    margin-right: 4px;
+    margin-bottom: 13px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $purple;
+}
+
+.rectangle__btn a {
+    margin-bottom: 0;
+}
+
+#checkbox__title {
+    font-weight: 700;
+    color: $dark75;
+}
+
+.rich__checkbox__buttons {
+    margin-top: 100px;
+    margin-left: 12px;
+}
+
+.rich__checkbox__buttons input {
+    margin-top: 16px;
+}
+
+.range__slider {
+    display: flex;
+    justify-content: space-between;
+    width: 266px;
+}
+
+.range__slider p {
+    margin: 0;
+    margin-top: -6px;
+}
+
+.range__bar {
+    position: relative;
+    margin-top: 23px;
+    width: 266px;
+    height: 6px;
+    border: 1px solid $dark25;
+    border-radius: 3px;
+}
+
+.range__bar::before {
+    content: "";
+    width: 88px;
+    height: 6px;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    position: absolute;
+    top: -1px;
+    left: 82px;
+}
+
+.range__bar__circle {
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: -3px;
+}
+
+#left__range {
+    left: 77px;
+}
+
+#right__range {
+    right: 92px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+#purple {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#purple:last-child {
+    margin-left: 19px;
+}
+
+#white {
+    margin-left: 19px;
+}
+
+.buttons__inner {
+    margin-top: 14px;
+}
+
+.buttons__inner a {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $purple;
+    text-decoration: none;
+}
+
+.buttons__inner a:last-child {
+    margin-left: 20px;
+    color: $dark50;
+}
+
+.pagination {
+    width: 241px;
+    margin-top: 6px;
+}
+
+.pagination__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pagination__inner p {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.pagination__inner p:first-child {
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    color: #fff;
+}
+
+.img__border {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+    border-radius: 22px;
+    margin-top: 0px;
+}
+
+.img__border img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#suptitle {
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+#dropdown__right {
+    margin-top: 232px;
+}
+
+#dropdown__right a:first-child {
+    color: $dark50;
+    margin-left: 14px;
+}
+
+.bullet__list {
+    margin-top: 100px;
+}
+
+.bullet__list ul {
+    position: relative;
+}
+
+.bullet__list li {
+    margin-top: 10px;
+}
+
+.bullet__list li:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $dark25;
+    left: 20px;
+}
+
+.comment {
+    position: absolute;
+    width: 711px;
+    margin-top: 204px;
+}
+
+.comment__title {
+    display: flex;
+}
+
+.comment__title p {
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+.comment__title span {
+    font-weight: 400;
+}
+
+.comment__text {
+    display: flex;
+    margin-top: -22px;
+}
+
+.comment__text img {
+    width: 40px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+
+.comment__text p {
+    margin: 0;
+    margin-left: 15px;
+}
