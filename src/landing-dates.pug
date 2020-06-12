@@ -1,0 +1,92 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        script(src="https://kit.fontawesome.com/b86e924c22.js" crossorigin="anonymous")
+        title Document
+    body
+
+    include includes/pug/header-guest.pug
+
+    .container-photo
+        div.card__inner
+            h1 Найдём номера под ваши пожелания
+            div.card__inner__date
+                div.arrival
+                    h3 прибытие
+                    input(type="date")
+                div.departure
+                    h3 выезд
+                    input(type="date")
+            h3#left__card__inner__h3 гости
+            input(type="number" placeholder='Сколько гостей')
+            button.btn__card(type='submit') подобрать номер
+                img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
+    
+        div.card__inner#calendar 
+            .month 
+                ul
+                    li.prev
+                        img(src="/img/arrow/arrow_back.png" alt="alt")
+                    li.next
+                        img(src="/img/arrow/arrow_forward.png" alt="alt")
+                    li
+                        span Август 2019
+            ul.weekdays
+                li Пн
+                li Вт
+                li Ср
+                li Чт
+                li Пт
+                li Сб
+                li Вс
+            ul.days
+                li 29
+                li 30
+                li 31
+                li 1
+                li 2
+                li 3
+                li 4
+                li 5
+                li 6
+                li 7
+                li#active__gn 8
+                li 9
+                li 10
+                li 11
+                li 12
+                li 13
+                li 14
+                li 15
+                li 16
+                li 17
+                li 18
+                li#active__s1 19
+                li.active__gy 20
+                li.active__gy 21
+                li.active__gy 22
+                li#active__s2 23
+                li 24
+                li 25
+                li 26
+                li 27
+                li 28
+                li 29
+                li 30
+                li 31
+                li 1
+            .calendar__inner
+                a(href="#")#clear__btn очистить
+                a(href="#")#done__btn применить            
+        .subtitle
+            p Лучшие номера для вашей работы, отдыха и просто вдохновения
+
+    include includes/pug/footer-widgets&copyright-bar.pug
+
+
+
+    script(src="https://code.jquery.com/jquery-3.5.0.min.js")
+    script(src='./landing-page.js')

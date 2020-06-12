@@ -1,0 +1,30 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        script(src="https://kit.fontawesome.com/b86e924c22.js" crossorigin="anonymous")
+        title Document
+    body
+
+    include includes/pug/header-guest.pug
+
+    .bg
+        .bg__inner
+            div.card__inner
+                h1 Войти
+                input#name(type="text" placeholder='Email')
+                input(type="text" placeholder='Пароль')
+                button.btn__card(type='submit') войти
+                    img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
+                div.account__reg
+                    p Нет аккаунта на Toxin?
+                    button.btn__acount__reg(type='submit') Создать
+
+    include includes/pug/footer-widgets&copyright-bar.pug
+
+
+
+    script(src="https://code.jquery.com/jquery-3.5.0.min.js")
+    script(src='./sign-in.js')

@@ -1,0 +1,369 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        script(src="https://kit.fontawesome.com/b86e924c22.js" crossorigin="anonymous")
+        title Document
+    body
+
+        include includes/pug/header-guest.pug
+
+        .search__room
+            .search__room__nav
+                h3#filter__date__dropdown даты пребывания в отеле
+                input#filter__date__dropdown__input(type="date")
+                .form__input__title
+                    h3 Гости
+                input#dropdown1(type="text" placeholder="3 гостя, 1 младенец")
+                .range__slider 
+                    h3 Диапазон цены
+                    p 5 000₽ - 10 000₽ 
+                .range__bar
+                    .range__bar__circle#left__range
+                    .range__bar__circle#right__range
+                p#range__bar__text Стоимость за сутки пребывания в номере
+                h3#div__h3__checkbox__title Checkbox Buttons
+                .div__checkbox
+                    input(type="checkbox" name="")
+                    | Можно курить
+                    br
+                    input#div__checkbox__input1(type="checkbox" name="")
+                    | Можно с питомцами
+                    br
+                    input#div__checkbox__input2(type="checkbox" name="")
+                    | Можно пригласить гостей 
+                    br
+                span#sub__checkbox (до 10 человек)
+                .rich__checkbox__buttons
+                    h3 Доступность
+                    input(type="checkbox" name="")
+                    span#checkbox__title Широкий коридор
+                    br
+                    span#sub__checkbox Ширина коридоров в номере 
+                    br
+                    span#sub__checkbox не менее 91 см.
+                    br
+
+                    input(type="checkbox" name="")
+                    span#checkbox__title Помощник для инвалидов
+                    br
+                    span#sub__checkbox На 1 этаже вас встретит специалист
+                    br
+                    span#sub__checkbox и проводит до номера.
+                .form__input__title#form__input__title1
+                    h3 Удобство номера
+                input#dropdown1(type="text" placeholder="2 спальни, 2 кровати...")
+                .checkbox__list
+                h3 expandable checkbox list
+                div
+                    input(type="checkbox" name="")
+                    | Завтрак
+                    br
+                    input(type="checkbox" name="")
+                    | Письменный стол
+                    br
+                    input(type="checkbox" name="")
+                    | Стул для кормления
+                    br
+                    input(type="checkbox" name="")
+                    | Кроватка
+                    br
+                    input(type="checkbox" name="")
+                    | Телевизор
+                    br
+                    input(type="checkbox" name="")
+                    | Шампунь
+            .search__room__card
+                h1 Номера, которые мы для вас подобрали
+                .search__room__inner
+                    .search__room__card__inner
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image1.png" alt="alt")
+                                img#left(src="./img/arrow/expand_more.png" alt="alt")
+                                img#right(src="./img/arrow/expand_more.png" alt="alt")
+                                div.card__dlc    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 888 
+                                    span люкс
+                                p 9 990₽ 
+                                    span в сутки
+                            div.rating
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                p 145 
+                                    span Отзывов
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image2.png" alt="alt")
+                                div.card__dlc#card__dlc2    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 840
+                                p 9 990₽ 
+                                    span в сутки
+                            div.rating#rating2
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                p 65 
+                                    span Отзывов
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image4.png" alt="alt")
+                                div.card__dlc#card__dlc2    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 980
+                                    span люкс
+                                p 8 500₽ 
+                                    span в сутки
+                            div.rating#rating2
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                p 35 
+                                    span Отзывов
+                    .search__room__card__inner
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image5.png" alt="alt")
+                                div.card__dlc    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 856
+                                p 7 300₽ 
+                                    span в сутки
+                            div.rating
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                p 19 
+                                    span Отзывов
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image6.png" alt="alt")
+                                div.card__dlc#card__dlc2    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 740
+                                p 6 000₽ 
+                                    span в сутки
+                            div.rating#rating2
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                p 44 
+                                    span Отзывов
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image7.png" alt="alt")
+                                div.card__dlc#card__dlc2    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 982
+                                p 5 800₽ 
+                                    span в сутки
+                            div.rating#rating2
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                p 56 
+                                    span Отзывов    
+                    .search__room__card__inner
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image8.png" alt="alt")
+                                div.card__dlc    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 678 
+                                    span люкс
+                                p 5 500₽ 
+                                    span в сутки
+                            div.rating
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                p 45 
+                                    span Отзывов
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image9.png" alt="alt")
+                                div.card__dlc#card__dlc2    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 450
+                                p 5 300₽ 
+                                    span в сутки
+                            div.rating#rating2
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                p 39 
+                                    span Отзывов
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image10.png" alt="alt")
+                                div.card__dlc#card__dlc2    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 350
+                                p 5 000₽ 
+                                    span в сутки
+                            div.rating#rating2
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                p 77 
+                                    span Отзывов
+                    .search__room__card__inner
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image11.png" alt="alt")
+                                div.card__dlc    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 666
+                                    span люкс
+                                p 5 000₽ 
+                                    span в сутки
+                            div.rating
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                p 25 
+                                    span Отзывов
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image12.png" alt="alt")
+                                div.card__dlc#card__dlc2    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 444
+                                p 5 000₽ 
+                                    span в сутки
+                            div.rating#rating2
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                p 15 
+                                    span Отзывов
+                        div.card__photo
+                            div#card__photo
+                                img#card(src="./img/photo/image13.png" alt="alt")
+                                div.card__dlc#card__dlc2    
+                                    img#el(src="./img/ellipse/Ellipse.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                                    img#el(src="./img/ellipse/Ellipse2.png" alt="alt")
+                            div.photo__price
+                                h1 № 
+                                    span#eight 352
+                                p 5 000₽ 
+                                    span в сутки
+                            div.rating#rating2
+                                div.rating__stars
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                    img(src="./img/star/star_border.png" alt="alt")
+                                p 55 
+                                    span Отзывов                    
+                    .pagination
+                        .pagination__inner
+                            p 1
+                            p 2
+                            p 3
+                            p ...
+                            p 15
+                            .img__border
+                                img(src="./img/arrow/arrow_forward2.png" alt="alt")
+                        p#suptitle 1 – 12 из 100+ вариантов аренды                    
+
+        include includes\pug\footer-widgets&copyright-bar.pug
+
+    script(src="https://code.jquery.com/jquery-3.5.0.min.js")
+    script(src='./search-room.js')

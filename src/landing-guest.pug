@@ -1,0 +1,63 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        script(src="https://kit.fontawesome.com/b86e924c22.js" crossorigin="anonymous")
+        title Document
+    body
+
+    include includes/pug/header-guest.pug
+
+    .container-photo
+        div.card__inner
+            h1 Найдём номера под ваши пожелания
+            div.card__inner__date
+                div.arrival
+                    h3 прибытие
+                    input(type="date")
+                div.departure
+                    h3 выезд
+                    input(type="date")
+            h3#left__card__inner__h3 гости
+            input(type="number" placeholder='Сколько гостей')
+            button.btn__card(type='submit') подобрать номер
+                img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
+        .dropdown#dropdown__right
+            .dropdown__expanded#dropdown2
+                p 3 гостя
+                .rectangle
+                    .rectangle__text
+                        h3 взрослые
+                        h3.min#min1 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3.rectangle__num#rectangle__num1 2
+                        h3.pl#pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__text#rt1
+                        h3 дети
+                        h3.min#min2 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3.rectangle__num#rectangle__num1 1
+                        h3.pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__text#rt2
+                        h3 младенцы
+                        h3.min#min3 -
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                        h3#rectangle__num 0
+                        h3#pl +
+                            img.min__img(src="/img/Rectangle 2.png" alt="alt")
+                    .rectangle__btn
+                        a(href="#") очистить
+                        a(href="#") Применить
+        .subtitle
+            p Лучшие номера для вашей работы, отдыха и просто вдохновения
+
+    include includes/pug/footer-widgets&copyright-bar.pug
+
+
+
+    script(src="https://code.jquery.com/jquery-3.5.0.min.js")
+    script(src='./landing-page.js')

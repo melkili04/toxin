@@ -1,0 +1,45 @@
+doctype
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        script(src="https://kit.fontawesome.com/b86e924c22.js" crossorigin="anonymous")
+        title Document
+    body
+
+    include includes/pug/header-guest.pug
+
+    .bg
+        .bg__inner
+            div.card__inner
+                h1 Регистрация аккаунта
+                input#name(type="text" placeholder='Имя')
+                input(type="text" placeholder='Фамилия')
+                div.radio
+                    input#men(name="gender" type="radio" value="Men")
+                    label(for="men") Мужчина
+                    input#women(name="gender" type="radio" value="Women")
+                    label(for="women") Женщина
+                h3 Дата рождения
+                input(type="date")
+                h3#left__card__inner__h3 Данные для входа в сервис
+                input#name2(type="text" placeholder='Email')
+                input(type="text" placeholder='Пароль')
+                div.spec
+                    label.switch
+                        input(type="checkbox")
+                        span.slider
+                    p Получать спецпредложения
+                button.btn__card#reg__acc_btn(type='submit') подобрать номер
+                    img.arrow__white(src="./img/arrow/arrow_forward2.png" alt="alt")
+                div.account__reg
+                    p Уже есть аккаунт на Toxin
+                    button.btn__acount__reg(type='submit') Войти
+
+    include includes/pug/footer-widgets&copyright-bar.pug
+
+
+
+    script(src="https://code.jquery.com/jquery-3.5.0.min.js")
+    script(src='./registration.js')
