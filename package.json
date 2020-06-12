@@ -1,0 +1,22 @@
+{
+  "name": "figma",
+  "version": "1.0.0",
+  "scripts": {
+    "uikit": "parcel src/uikit.pug --open",
+    "landing-page": "parcel src/landing-page.pug --open",
+    "landing-dates": "parcel src/landing-dates.pug --open",
+    "landing-guest": "parcel src/landing-guest.pug --open",
+    "search-room": "parcel src/search-room.pug --open",
+    "search-room__fpd": "parcel src/search-room__fpd.pug --open",
+    "search-room__fpel": "parcel src/search-room__fpel.pug --open",
+    "room-details": "parcel src/room-details.pug --open",
+    "reg": "parcel src/registration.pug --open",
+    "sign": "parcel src/sign-in.pug --open"
+  },
+  "author": "Alexandr <lara.alman@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "pug": "^2.0.4",
+    "sass": "^1.26.5"
+  }
+}
