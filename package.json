@@ -16,7 +16,7 @@
   "author": "Alexandr <lara.alman@yandex.ru>",
   "license": "MIT",
   "devDependencies": {
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "sass": "^1.26.5"
   }
 }
